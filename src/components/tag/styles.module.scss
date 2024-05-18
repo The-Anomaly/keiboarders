@@ -1,0 +1,29 @@
+.tag {
+  background: radial-gradient(
+    108.71% 228.83% at -22.65% 12.33%,
+    rgba(0, 230, 118, 0.16) 0%,
+    rgba(108, 99, 255, 0.08) 21.97%,
+    rgba(0, 230, 118, 0.03) 98.44%
+  );
+  border: 1px solid #ffffff0d;
+  display: flex;
+  padding: 6px 14px;
+  border-radius: 36px;
+  gap: 1.5rem;
+  align-items: center;
+  width: fit-content;
+
+  p {
+    font-size: 13px;
+  }
+
+  span {
+    background: #ffffff08;
+    border: 1px solid #ffffff12;
+    border-radius: 36px;
+    padding: 2px 8px;
+    margin-right: -8px;
+    svg {
+    }
+  }
+}

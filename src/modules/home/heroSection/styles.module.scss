@@ -1,0 +1,60 @@
+.heroSec {
+  padding-bottom: 2rem;
+}
+.txtSec {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 64px;
+    line-height: 1.4;
+    max-width: 850px;
+    margin-top: 1.8rem;
+    margin-bottom: 0.5rem;
+
+    em {
+      font-size: 90%;
+      font-weight: 600;
+    }
+  }
+
+  > p {
+    color: #a5a5a5;
+    letter-spacing: -0.3px;
+    max-width: 480px;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 0.7rem;
+  }
+  .btnSec {
+    display: flex;
+    gap: 1rem;
+
+    button {
+      font-family: "Inter";
+      padding: 12px 14px;
+      font-size: 14px;
+      border-radius: 3px;
+      min-width: 120px;
+
+      &:first-of-type {
+        border: 1px solid #3c9541;
+        background: #3c9541;
+        color: #fff;
+      }
+
+      &:last-of-type {
+        border: 1px solid #222d3a;
+        background: #222d3a;
+        color: #fff;
+      }
+    }
+  }
+}
+.img {
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+.navWrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  width: 160px;
+  left: 1rem;
+}
+.nav {
+  display: flex;
+  gap: 3.3rem;
+
+  a {
+    color: #fff;
+    font-family: "Inter";
+    text-decoration: none;
+    font-size: 15px;
+  }
+}

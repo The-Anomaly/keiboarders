@@ -1,0 +1,52 @@
+.contactBg {
+  max-width: 1140px;
+  padding-top: 3rem;
+}
+.contactSec {
+  background: #ccf652;
+  border-radius: 16px;
+  padding: 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+
+  button {
+    border: 1px solid #292b3f;
+    color: #292b3f;
+    font-family: "Inter";
+    background: transparent;
+    border-radius: 3px;
+    padding: 13px 36px;
+    font-size: 15px;
+    font-weight: 800;
+  }
+}
+.ttl {
+  color: #131a21;
+  font-size: 58px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.1;
+  margin-top: 1rem;
+
+  h4 {
+    max-width: 600px;
+    font-weight: 600;
+  }
+
+  em {
+    font-weight: 800;
+  }
+
+  span {
+    color: #131a2166;
+    max-width: 800px;
+    font-weight: 600;
+  }
+}
