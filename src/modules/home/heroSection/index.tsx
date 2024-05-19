@@ -8,11 +8,11 @@ const HeroSection = () => {
       <section className={`container ${styles.heroSec}`}>
         <div className={styles.txtSec}>
           <Tag text={"Book a demo with us today and let us create magic"} />
-          <h1>
+          <h1 data-aos="fade-in" >
             Transforming <em>Startups</em> with <em>innovative</em> software
             solutions
           </h1>
-          <p>
+          <p data-aos="fade-in" >
             We specialize in research, design, and development of cutting-edge
             software products tailored for startups. Our team of experts is
             dedicated to helping you succeed.
@@ -22,7 +22,7 @@ const HeroSection = () => {
             <button>Contact Us</button>
           </div>
         </div>
-        <img className={styles.img} src={heroImg} alt="dashboard" />
+        <img data-aos="slide-up" className={styles.img} src={heroImg} alt="dashboard" />
       </section>
     </>
   );

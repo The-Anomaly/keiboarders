@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <>
       <section id="contact" className={`container ${styles.contactBg}`}>
-        <div className={styles.contactSec}>
+        <div data-aos="zoom-in" className={styles.contactSec}>
           <div className={styles.ttl}>
             <h4>
               Ready to Build a <em>world-class</em> solution{" "}

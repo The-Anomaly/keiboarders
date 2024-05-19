@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 const Tag = ({ text }) => {
   return (
     <>
-      <div className={`${styles.tag}`}>
+      <div data-aos="fade-in" className={`${styles.tag}`}>
         <p>{text}</p>
         <span>
           <MagicIcon />
