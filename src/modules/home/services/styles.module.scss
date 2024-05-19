@@ -56,3 +56,14 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .servicesSec {
+    padding-top: 4rem;
+  }
+  .txtSec {
+    h2 {
+      font-size: 32px;
+    }
+  }
+}

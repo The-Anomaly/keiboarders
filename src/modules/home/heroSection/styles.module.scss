@@ -58,3 +58,22 @@
 .img {
   width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+  .txtSec {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    h1 {
+      font-size: 44px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+  .img {
+    margin-left: -1rem;
+    width: calc(100% + 2rem);
+  }
+}

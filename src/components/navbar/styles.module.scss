@@ -1,14 +1,30 @@
+.navBg {
+  position: fixed;
+  width: 100dvw;
+  top: 0;
+  background: #131a21;
+  z-index: 10;
+  left: 0;
+  top: 0;
+}
 .navWrap {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   padding-right: 2rem;
   position: relative;
 }
-.logo {
+.logoSec {
   position: absolute;
-  width: 160px;
   left: 1rem;
+
+  button {
+    display: none;
+  }
+}
+.logo {
+  width: 160px;
 }
 .nav {
   display: flex;
@@ -19,5 +35,66 @@
     font-family: "Inter";
     text-decoration: none;
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navWrap {
+    display: block;
+    padding: 1rem;
+  }
+  .openMenu {
+    .navWrap {
+      height: 100dvh;
+    }
+  }
+  .logoSec {
+    position: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+      * {
+        transition: 0.3s;
+      }
+      display: flex;
+      flex-direction: column;
+      width: 24px;
+      height: 28px;
+      padding: 6px 0;
+      justify-content: space-between;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+
+      div {
+        background: #fff;
+        height: 2px;
+        width: 100%;
+        border-radius: 4px;
+      }
+    }
+    .closeMenuBtn {
+      div:first-of-type {
+        transform: rotate(45deg) translate(8px, 4px);
+      }
+      div:nth-of-type(2) {
+        transform: rotate(-45deg) translate(6px, -2px);
+      }
+
+      div:last-of-type {
+        display: none;
+      }
+    }
+  }
+  .nav {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 0;
+
+    a {
+      font-size: 18px;
+    }
   }
 }

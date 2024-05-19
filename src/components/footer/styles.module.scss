@@ -23,3 +23,16 @@
     letter-spacing: -0.2px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .footer {
+    padding-bottom: 2rem;
+
+    hr {
+      margin-top: 1rem;
+    }
+    p {
+      padding-top: 1rem;
+    }
+  }
+}

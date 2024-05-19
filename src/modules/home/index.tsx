@@ -10,7 +10,7 @@ const HomeUI = () => {
   return (
     <>
       <Navbar />
-      <main>
+      <main className={styles.main} >
         <HeroSection />
         <SocialProof />
         <Services />

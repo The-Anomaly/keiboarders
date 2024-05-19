@@ -50,3 +50,16 @@
     font-weight: 600;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .contactBg {
+    padding-top: 0;
+  }
+  .ttl {
+    font-size: 36px;
+
+    h4 {
+      max-width: 360px;
+    }
+  }
+}

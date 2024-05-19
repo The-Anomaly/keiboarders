@@ -27,3 +27,20 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .tag {
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tag {
+    gap: 1rem;
+    p {
+      font-size: 11px;
+    }
+  }
+}
