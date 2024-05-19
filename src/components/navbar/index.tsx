@@ -12,9 +12,13 @@ const Navbar = () => {
   };
   window.onresize = screenSizeUpdate;
 
+  const handleCloseNav = () => {
+    setShowNav(false);
+  };
+
   return (
     <>
-      <header className={`${styles.navBg} ${showNav ? styles.openMenu :""}`}>
+      <header className={`${styles.navBg} ${showNav ? styles.openMenu : ""}`}>
         <section className={`container ${styles.navWrap}`}>
           <div className={styles.logoSec}>
             <LogoWithText className={styles.logo} />
@@ -31,9 +35,15 @@ const Navbar = () => {
           </div>
           {(showNav && mobile) || !mobile ? (
             <nav className={styles.nav}>
-              <Link to="#services">Services</Link>
-              <Link to="#about">About Us</Link>
-              <Link to="#contact">Contact Us</Link>
+              <Link onClick={handleCloseNav} to="#services">
+                Services
+              </Link>
+              <Link onClick={handleCloseNav} to="#about">
+                About Us
+              </Link>
+              <Link onClick={handleCloseNav} to="#contact">
+                Contact Us
+              </Link>
             </nav>
           ) : (
             ""
